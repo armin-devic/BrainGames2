@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrainGames</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bouton_jeu_1">Jeu 1</string>
+    <string name="bouton_jeu_2">Jeu 2</string>
+    <string name="bouton_jeu_3">Jeu 3</string>
+    <string name="bouton_score">scores</string>
+    <string name="bouton_options">options</string>
+    <string name="bouton_a_propos">à propos</string>
+    <string name="sub_bouton_1_1">1</string>
+    <string name="sub_bouton_1_2">2</string>
+    <string name="sub_bouton_1_3">3</string>
+    <string name="sub_bouton_2_1">1</string>
+    <string name="sub_bouton_2_2">2</string>
+    <string name="sub_bouton_2_3">3</string>
+    <string name="sub_bouton_3_1">1</string>
+    <string name="sub_bouton_3_2">2</string>
+    <string name="sub_bouton_3_3">3</string>
+    <string name="title_activity_jeu_nombres">JeuNombres</string>
+
+</resources>

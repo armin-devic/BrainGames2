@@ -1,0 +1,392 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.redandyellow.app.Menu_activity">
+
+
+    <LinearLayout
+        android:id="@+id/menu1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+
+
+
+        <FrameLayout
+            android:id="@+id/jeu_1_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/rouge"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/jeu_1_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/rouge"
+                android:textColor="@color/jaune"
+                android:textStyle="bold"
+                android:text="@string/bouton_jeu_1"
+                android:textSize="50sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/jeu_1_sub_frame"
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_height="fill_parent">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/rouge"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_1_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_1_1"
+                        android:layout_weight="1"
+                        android:textSize="25sp"
+                        android:textColor="@color/jaune"
+                        android:background="@color/rouge"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/jaune"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_1_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_1_2"
+                        android:textSize="25sp"
+                        android:layout_weight="1"
+                        android:textColor="@color/rouge"
+                        android:background="@color/jaune"
+                        />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/rouge"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_1_30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_1_3"
+                        android:textSize="25sp"
+                        android:layout_weight="1"
+                        android:textColor="@color/jaune"
+                        android:background="@color/rouge"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+
+
+
+
+
+
+        <FrameLayout
+            android:id="@+id/jeu_2_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/jaune"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/jeu_2_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textColor="@color/rouge"
+                android:textStyle="bold"
+                android:background="@color/jaune"
+                android:text="@string/bouton_jeu_2"
+                android:textSize="50sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/jeu_2_sub_frame"
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_height="fill_parent">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/jaune"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_2_1"
+                        android:textSize="25sp"
+                        android:layout_weight="1"
+                        android:textColor="@color/rouge"
+                        android:background="@color/jaune"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/rouge"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_2_2"
+                        android:textSize="25dp"
+                        android:background="@color/rouge"
+                        android:textColor="@color/jaune"
+                        android:layout_weight="1"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/jaune"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_2_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_2_3"
+                        android:textSize="25sp"
+                        android:layout_weight="1"
+                        android:textColor="@color/rouge"
+                        android:background="@color/jaune"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:id="@+id/jeu_3_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/rouge"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/jeu_3_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/rouge"
+                android:textColor="@color/jaune"
+                android:textStyle="bold"
+                android:text="@string/bouton_jeu_3"
+                android:textSize="50sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/jeu_3_sub_frame"
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_height="fill_parent">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/rouge"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_3_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_3_1"
+                        android:layout_weight="1"
+                        android:textSize="25sp"
+                        android:textColor="@color/jaune"
+                        android:background="@color/rouge"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/jaune"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_3_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_3_2"
+                        android:textSize="25sp"
+                        android:layout_weight="1"
+                        android:textColor="@color/rouge"
+                        android:background="@color/jaune"
+                        />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:background="@color/rouge"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:id="@+id/jeu_3_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:text="@string/sub_bouton_3_3"
+                        android:textSize="25sp"
+                        android:layout_weight="1"
+                        android:textColor="@color/jaune"
+                        android:background="@color/rouge"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+
+
+
+        <FrameLayout
+            android:id="@+id/score_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/score_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/jaune"
+                android:textColor="@color/rouge"
+                android:textStyle="bold"
+                android:text="@string/bouton_score"
+                android:textSize="50sp"
+                android:gravity="center"/>
+
+        </FrameLayout>
+        
+        
+        
+        
+        
+        
+
+        <FrameLayout
+            android:id="@+id/options_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/options_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/rouge"
+                android:textColor="@color/jaune"
+                android:textStyle="bold"
+                android:text="@string/bouton_options"
+                android:textSize="50sp"
+                android:gravity="center"/>
+
+
+        </FrameLayout>
+
+
+
+
+        <FrameLayout
+            android:id="@+id/about_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/about_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/jaune"
+                android:textColor="@color/rouge"
+                android:textStyle="bold"
+                android:text="@string/bouton_a_propos"
+                android:textSize="50sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/about_sub_frame"
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="10"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="20"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="30"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
